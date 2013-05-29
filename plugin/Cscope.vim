@@ -1,5 +1,5 @@
 if has("cscope")
-        ":set cscopequickfix=s-,c-,d-,i-,t-,e-
+        "set cscopequickfix=s-,c-,d-,i-,t-,e-
 
         " use both cscope and ctag for 'ctrl-]', ':ta', and 'vim -t'        
         set cscopetag

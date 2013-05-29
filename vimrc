@@ -16,6 +16,7 @@ Bundle 'gmarik/vundle'
 Bundle 'taglist.vim'
 "Bundle 'winmanager.vim'
 Bundle 'minibufexpl.vim'
+Bundle 'grep.vim'
 
 Bundle 'vimwiki'
 
