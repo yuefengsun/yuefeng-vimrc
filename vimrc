@@ -14,8 +14,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'taglist.vim'
-Bundle 'a.vim'
-Bundle 'winmanager.vim'
+"Bundle 'winmanager.vim'
+Bundle 'minibufexpl.vim'
 
 Bundle 'vimwiki'
 

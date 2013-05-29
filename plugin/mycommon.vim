@@ -51,21 +51,4 @@ function ClosePair(char)
 	endif
 endf
 
-"setting Taglist
-nmap <silent> <leader>tl :TlistToggle<cr>
-let Tlist_Exit_OnlyWindow=1
-let Tlist_Show_One_File=1
-let Tlist_File_Fold_Auto_Close=1
-let Tlist_Use_Right_Window=1
-"let Tlist_Close_On_Select=1
-
-
-"    i↑ 
-" j←  k↓ l→ 
-let g:miniBufExplMapWindowNavArrows = 1
-
-noremap <C-K> <C-W>j
-noremap <C-I> <C-W>k
-noremap <C-J> <C-W>h
-noremap <C-L> <C-W>l
-
+nmap <silent> <leader>dma :delm!<cr>
