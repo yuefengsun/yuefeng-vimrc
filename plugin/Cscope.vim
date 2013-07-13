@@ -26,14 +26,22 @@ if has("cscope")
         "   'i'   includes: find files that include the filename under cursor
         "   'd'   called: find functions that function under cursor calls
 
-        nmap <silent> <leader>css :cs find s <C-R>=expand("<cword>")<cr><cr>
+        nmap <silent> <leader>ss :cs find s <C-R>=expand("<cword>")<cr><cr>
         nmap <silent> <leader>csg :cs find g <C-R>=expand("<cword>")<cr><cr>
-        nmap <silent> <leader>csc :cs find c <C-R>=expand("<cword>")<cr><cr>
+        nmap <silent> <leader>cc :cs find c <C-R>=expand("<cword>")<cr><cr>
         nmap <silent> <leader>cst :cs find t <C-R>=expand("<cword>")<cr><cr>
         nmap <silent> <leader>cse :cs find e <C-R>=expand("<cword>")<cr><cr>
         nmap <silent> <leader>csf :cs find f <C-R>=expand("<cfile>")<cr><cr>
         nmap <silent> <leader>csi :cs find i ^<C-R>=expand("<cfile>")<cr><cr>
         nmap <silent> <leader>csd :cs find d <C-R>=expand("<cword>")<cr><cr>
 
+        "nmap <C-/>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>f :cs find f <C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>i :cs find i ^<C-R>=expand("<cword>")<CR><CR>
+        "nmap <C-/>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
 endif

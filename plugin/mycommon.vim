@@ -27,10 +27,15 @@ set mouse=v
 nmap <silent> <leader>ma :set mouse=a<cr>
 nmap <silent> <leader>mv :set mouse=v<cr>
 
+"buffer
+noremap j <esc>:bn<cr>
+noremap k <esc>:bp<cr>
+
 set encoding=utf8
 
 set cursorline
 
+set hlsearch
 
 
 "auto completion
@@ -52,3 +57,7 @@ function ClosePair(char)
 endf
 
 nmap <silent> <leader>dma :delm!<cr>
+
+"nmap <silent> <c-s> <ESC>:w
+"im <c-s> <ESC>:w<CR>
+
