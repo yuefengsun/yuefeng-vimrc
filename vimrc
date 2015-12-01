@@ -6,7 +6,7 @@ set number
 set nocompatible
 
 "vundle required 
-"filetype off 
+"filetype off
 filetype plugin on
 
 set rtp+=~/.vim/bundle/vundle/

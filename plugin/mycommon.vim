@@ -23,13 +23,15 @@ set so=4
 
 set ruler
 
+set laststatus=2
+
 set mouse=v
 nmap <silent> <leader>ma :set mouse=a<cr>
 nmap <silent> <leader>mv :set mouse=v<cr>
 
 "buffer
-noremap j <esc>:bn<cr>
-noremap k <esc>:bp<cr>
+"noremap j <esc>:bn<cr>
+"noremap k <esc>:bp<cr>
 
 set encoding=utf8
 
@@ -58,6 +60,7 @@ endf
 
 nmap <silent> <leader>dma :delm!<cr>
 
+nmap <silent> <leader>fc :%s/\s\+$//g<cr>
 "nmap <silent> <c-s> <ESC>:w
 "im <c-s> <ESC>:w<CR>
 
