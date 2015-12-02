@@ -58,6 +58,11 @@ function ClosePair(char)
 	endif
 endf
 
+noremap <C-J> <C-W>j
+noremap <C-K> <C-W>k
+noremap <C-H> <C-W>h
+noremap <C-L> <C-W>l
+
 nmap <silent> <leader>dma :delm!<cr>
 
 nmap <silent> <leader>fc :%s/\s\+$//g<cr>
