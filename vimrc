@@ -24,6 +24,9 @@ Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'vimwiki'
 
+Bundle 'TeTrIs.vim'
+Bundle 'matrix.vim--Yang'
+
 Bundle 'kien/ctrlp.vim'
 
 set history=1000
