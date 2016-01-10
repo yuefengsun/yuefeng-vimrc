@@ -9,12 +9,12 @@ Yuefeng vimrc
 5. `:BundleInstall` into vim
 
 ## Usage
-<leader> is `,`
+**leader** is `,`
 
-* **<Ctrl p>** Ctrl P plug in
-* **<leader> tl** show tag list
-* **<leader> fc** clean space at end of line
-* **<Ctrl \> <Ctrl R>** grep the word
-* **<leader> ss** cscope find s
-* **<leader> cc** cscope find c
-* **<leader> ww** vim wiki
+* **Ctrl p** Ctrl P plug in
+* **leader tl** show tag list
+* **leader fc** clean space at end of line
+* **Ctrl \** **Ctrl R** grep the word
+* **leader ss** cscope find s
+* **leader cc** cscope find c
+* **leader ww** vim wiki
