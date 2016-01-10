@@ -16,7 +16,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'taglist.vim'
 "Bundle 'drmingdrmer/xptemplate'
-Bundle 'msanders/snipmate.vim'
+Bundle 'yuefengsun/snipmate.vim'
 "Bundle 'winmanager.vim'
 "Bundle 'minibufexpl.vim'
 Bundle 'grep.vim'

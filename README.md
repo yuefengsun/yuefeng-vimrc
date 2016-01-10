@@ -6,7 +6,7 @@ Yuefeng vimrc
 2. cd ~/yuefeng-vimrc
 3. sudo bash install.sh
 4. git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-5. `:BundleInstall` into vim
+5. `:BundleInstall` on vim
 
 ## Usage
 **leader** is `,`
