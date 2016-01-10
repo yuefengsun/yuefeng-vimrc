@@ -66,9 +66,10 @@ noremap <C-L> <C-W>l
 nmap <silent> <leader>dma :delm!<cr>
 
 nmap <silent> <leader>fc :%s/\s\+$//g<cr>
+nmap <silent> <leader>et <ESC>:set expandtab<ESC>
+nmap <silent> <leader>tt <ESC>:set noexpandtab<ESC>
 nmap <silent> <leader>FF <ESC>ggvG=<ESC>
 nmap <silent> <leader>ff <ESC>[[v%=<ESC>
 
 "nmap <silent> <c-s> <ESC>:w
 "im <c-s> <ESC>:w<CR>
-
